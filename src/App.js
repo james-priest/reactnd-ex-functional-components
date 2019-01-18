@@ -92,7 +92,7 @@ const movies = {
   },
 };
 
-function App (props) {
+const App = () =>  {
   return (
     <div>
       <header className="App-header">

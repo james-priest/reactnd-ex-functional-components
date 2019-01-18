@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MovieCard(props) {
+const MovieCard = props => {
   const { users, usersWhoLikedMovie, movieInfo } = props;
 
   return (

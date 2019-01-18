@@ -1,7 +1,7 @@
 import React from 'react';
 import MovieCard from './MovieCard';
 
-function MovieCardsList(props) {
+const MovieCardsList = props => {
   const { profiles, users, movies } = props;
   const usersByMovie = {};
 
